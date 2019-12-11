@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.Askmate import qna_app
+from django.Askmate import qna_app
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+   
+    path('qna_app/',qnaapp),
+    path('user_app/',user_app)
+    
 ]
